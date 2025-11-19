@@ -46,6 +46,11 @@ INSTALLED_APPS = [
     'rest_framework',
     'djongo',
     'corsheaders',
+    'rest_framework.authtoken',
+    'dj_rest_auth',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
 ]
 
 MIDDLEWARE = [
